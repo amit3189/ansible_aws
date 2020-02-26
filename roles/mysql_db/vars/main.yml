@@ -1,0 +1,5 @@
+---
+
+ db_name: my_sql_db
+ db_user: my_sql_usr
+ db_user_password: password_123
