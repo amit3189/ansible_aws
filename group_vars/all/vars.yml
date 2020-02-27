@@ -4,6 +4,6 @@
   image: ami-0f93b5fd8f220e428
   id: "web-app"
   sec_group: "{{ id }}-sec"
-  var_hosts:
+  var_host:
     - web_server1
     - web_server2
