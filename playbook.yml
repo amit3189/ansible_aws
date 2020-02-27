@@ -83,10 +83,10 @@
        timeout: 300
      loop: "{{ ec2.instances }}"
 
-   - name: Configure instance(s)
-     hosts: "{{ var_hosts }}"
-     become: True
-     gather_facts: True
-     roles:
-      - python
- 
+#   - name: Configure instance(s)
+#     hosts: "{{ var_hosts }}"
+#     become: True
+#     gather_facts: True
+#     roles:
+#      - python
+# 
